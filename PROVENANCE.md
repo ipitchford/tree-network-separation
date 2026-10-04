@@ -1,0 +1,13 @@
+# Provenance and responsibilities
+
+This is the first public candidate of **Sharp rank bounds and all-parameter tree–network separation**, version 0.1.0-candidate, dated 4 October 2026, DOI 10.5281/zenodo.23140370.
+
+The user commissioned full treatment of a specified mathematical question, then supplied a major-revision review and explicitly requested strengthening followed by the full Evidence Press publishing workflow. The revised candidate separates established special cases from its residual statements. The scholarly creator is **Anonymous** under the standing publication protocol. Ian Pitchford is repository maintainer and publisher; no scholarly contribution or institutional endorsement is inferred from that role.
+
+Codex and coordinated model agents drafted and checked arguments, compared primary sources, implemented exact checks and prepared the publication. Their mathematical and citation audits are internal AI-assisted assessment. They are not external specialist peer review, independent reproduction by another research group, or proof-assistant certification. A private supplied review guided revisions; a referenced independent audit bundle was unavailable and was not represented as inspected. [REVIEW_RESPONSE.md](audit/REVIEW_RESPONSE.md) records dispositions in newly written summary form, without redistributing that private review.
+
+The earlier local package remains unchanged: SHA-256 `07427d582f1e6ec495680a9c1d8b03a907f7a492b90028828c261918c3e5c604`. It was a local predecessor, not a public DOI version. This release is a new package and adds the sharp lower bound, fixed-topology mixture exclusion, state-space boundary, closure results, stronger literature attribution and verifier controls. No historical discovery timestamp is reconstructed from Git or file modification times.
+
+Primary literature and exact inspected locations are recorded in [SOURCES.md](SOURCES.md), [CITATION_AUDIT.md](CITATION_AUDIT.md), [references.bib](references.bib) and [research/prior-art.md](research/prior-art.md). The prior-art gate during this revision preceded the new substantial extensions. Its bounded negative search does not certify worldwide priority. The mathematical paper contains the arguments; provenance records are not additional scientific proof.
+
+Public files contain original prose/code and source metadata. Third-party full texts, private attachment contents, credentials and local host paths are excluded. The provider release receipts and complete clean-replay execution logs are retained separately, outside the target archive to avoid circular hash dependencies. The archive's MANIFEST.sha256 covers every shipped file except the manifest itself. Repository Git metadata is not part of the research archive.

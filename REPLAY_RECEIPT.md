@@ -1,0 +1,11 @@
+# Exact checks and replay evidence
+
+The shipped `verification/replay-authoring.public.json` is the final portable authoring receipt from 4 October 2026, with `SYMPY_GROUND_TYPES=python` explicitly selected. It records Python 3.14.7 and SymPy 1.14.0, two passing baselines with identical mathematical output, and eight intended mutation failures. Absolute host paths in displayed commands were replaced by portable paths, explicitly disclosed in the JSON; no result or source hash was changed.
+
+The release workflow separately runs `verification/replay.py --extended-d5 --output NEW_EXTERNAL_RECEIPT` from a clean extraction of the final ZIP, with the target archive hash bound to the execution and research-coverage receipts. Those external receipts avoid a circular archive self-hash and are retained with the Evidence Press publication closeout. Public GitHub CI provides an additional reproducible execution on Python 3.11 and 3.13 at the tagged payload commit.
+
+Finite exact coverage: symbolic moment and curvature identities; rational positive invertible noncommuting Markov channels in dimensions 2–5; explicit nonreversibility witnesses in dimensions 3–5; both displayed-split determinant identities; the crossed-row basis change; four-state pendant-channel identities; symmetric crossed ranks 3,6,10,15; inheritance-boundary tree ranks; a four-state two-tree common-topology mixture of rank 8; normalized equal-input triangle gaps for uniform/nonuniform frequencies in dimensions 3–5; and full eight-entry equality of the binary-symmetric triangle/tree control.
+
+Semantic mutations deliberately reverse the triangle gap sign, alter the determinant inheritance exponent, omit a mixture component, or assert universal full rank at the crossed split. Each must fail through the intended `VerificationError` with a matching diagnostic in both Python modes. Exceptions, rather than Python `assert`, enforce the tests.
+
+Universal rank, marginal-reduction, spectral, closure and probability arguments remain written proofs. No finite example suite establishes those quantifiers, verifies all possible inputs, supplies a formal proof, authenticates external peer review or validates practical biological power.

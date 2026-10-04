@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this unrefereed candidate with its version and DOI."
+type: article
+title: "Sharp rank bounds and all-parameter tree–network separation"
+authors:
+  - name: Anonymous
+version: "0.1.0-candidate"
+date-released: "2026-10-04"
+doi: "10.5281/zenodo.23140370"
+url: "https://doi.org/10.5281/zenodo.23140370"
+repository-code: "https://github.com/ipitchford/tree-network-separation"
+license: CC0-1.0
+keywords:
+  - phylogenetic networks
+  - general Markov model
+  - tensor flattenings
+  - reversible Markov chains
+  - identifiability

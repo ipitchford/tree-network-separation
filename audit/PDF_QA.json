@@ -1,0 +1,42 @@
+{
+  "schema": "manuscript-qa/v1",
+  "checked_at": "2026-10-04T16:31:40.935914+00:00",
+  "assessor": "Codex root, internal agent inspection",
+  "source_sha256": "3177f8135159a525447b3ec1aea0fd6f62e65ef9823b6da77ad58456ed8fbf75",
+  "pdf_sha256": "362933b05346a06b9457bbfccc2842e57631a0d8f9a1d664af85aebe339594e3",
+  "pdf_bytes": 394368,
+  "page_count": 16,
+  "source_build": "pdflatex twice, pdfTeX1.40.29; final build completed without undefined references or overfull boxes",
+  "native_compiler": "success reported separately by desktop compiler",
+  "text_preflight": "PASS; no exposed raw TeX control syntax",
+  "visual_review": {
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "method": "All16PDFpages rasterized and visually inspected in8two-page spreads; mathematicalsource also read in full",
+    "layout": "PASS; no clipping, overlaps, missing glyphs or broken equation numbering found",
+    "tables": "Related-work table spans3readablecolumns; normalhyphenation/underfullspacing retained",
+    "proofs": "Displayed formulas and all theorem statements readable; pagebreaks preserve content",
+    "references": "15bibliographyentries visiblypresentwithresolvingprintednumbers; DOIlinks render"
+  },
+  "fonts": "All20fontentries embedded, subset and Unicode maps present; LatinModern plus AMS symbolfont",
+  "limitations": [
+    "PDF is not tagged for accessibility; accessibleMarkdown supplied and reviewed separately.",
+    "Visual/type checking is not a mathematical proof or independent externalreview."
+  ]
+}

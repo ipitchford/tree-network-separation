@@ -1,0 +1,132 @@
+{
+  "authoring_replay": {
+    "elapsed_seconds": 3.508422,
+    "mathematical_status": "finite checks and exact identities only; not a universal proof or formal verification",
+    "relative_receipt_path": "verification/replay-authoring.public.json",
+    "stage": "Final portable documentation and code, pure-Python SymPy domain, before archive freeze",
+    "started_utc": "2026-10-04T16:51:02.597971+00:00",
+    "status": "PASS",
+    "summary": {
+      "baseline_passes": 2,
+      "expected_mutation_failures": 8,
+      "markov_dimensions": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "normal_optimized_mathematical_results_identical": true
+    },
+    "verification_source_sha256": {
+      "README.md": "28b44aad819fc3759a36ccea39b49f24050be4110cc8830555be0eeb8a3de90d",
+      "replay.py": "bd4d90419b172d6276ca25e46606f304fabf1b284237bf53810722e287cfec4a",
+      "requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+      "verify_exact.py": "a13cf8409429eb368ea308868f40cd5460d9bc6714b871d660bf1f4177997fd0"
+    },
+    "private_original_receipt_sha256": "6c617949e05a563f643ec1934e84d572f224469b9c12a553628d5f5fe12d5d78",
+    "public_redacted_receipt_sha256": "1032eea0d0c396f79aaf2930f5a6789a759f6b0cc7da89874f62c46509c9ce81"
+  },
+  "authoring_resource_policy": {
+    "name": "research-run",
+    "portable_package_dependency": false,
+    "portable_reader_instruction": "Readers do not need the authoring host wrapper.",
+    "purpose": "Shared-host admission control for one CPU thread and one GB reserved memory; wraps the whole replay process tree once."
+  },
+  "document_status": "release-record",
+  "final_package_replay": {
+    "status": "recorded-externally-after-archive-freeze",
+    "reason": "The archive-bound clean-extraction execution receipt is outside the archive to avoid circular hashing; consult the linked Evidence Press publication receipt and tagged GitHub CI runs.",
+    "planned_environment": {
+      "SYMPY_GROUND_TYPES": "python",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    }
+  },
+  "observed_authoring_environment": {
+    "architecture": "arm64",
+    "baseline_optimization_modes": [
+      0,
+      1
+    ],
+    "external_services_required": false,
+    "fresh_dependency_install_tested": false,
+    "gpu_required": false,
+    "mathematical_arithmetic": "exact rational and symbolic SymPy arithmetic",
+    "mpmath_version": "1.3.0",
+    "network_required_for_replay": false,
+    "operating_system": "Darwin",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "python_implementation": "CPython",
+    "python_version": "3.14.7",
+    "randomness_used": false,
+    "sympy_version": "1.14.0",
+    "sympy_ground_types": "python (explicitly selected for this final portable receipt)",
+    "optional_python_flint_version": "0.9.0 installed, not used by this final receipt"
+  },
+  "portable_commands": {
+    "create_environment": [
+      "python3",
+      "-m",
+      "venv",
+      ".venv"
+    ],
+    "full_replay": [
+      ".venv/bin/python",
+      "verification/replay.py",
+      "--extended-d5",
+      "--output",
+      "/tmp/tree-network-fresh-replay.json"
+    ],
+    "install": [
+      ".venv/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "-r",
+      "verification/requirements.txt"
+    ],
+    "normal_single": [
+      ".venv/bin/python",
+      "verification/verify_exact.py",
+      "--extended-d5"
+    ],
+    "optimized_single": [
+      ".venv/bin/python",
+      "-O",
+      "verification/verify_exact.py",
+      "--extended-d5"
+    ],
+    "receipt_policy": "Output receipt must not exist; existing bytes are never overwritten.",
+    "windows_interpreter_note": "Use .venv\\Scripts\\python.exe in place of .venv/bin/python.",
+    "working_directory": "extracted package root"
+  },
+  "portable_requirements": {
+    "authoring_reserved_memory_gb": 1,
+    "direct_dependencies": [
+      {
+        "name": "sympy",
+        "specification": "verification/requirements.txt",
+        "version": "1.14.0"
+      }
+    ],
+    "memory_note": "Resource reservation, not measured peak memory or a proved worst-case bound.",
+    "network_note": "Dependency installation may require network access. Once installed, verification runs offline.",
+    "observed_transitive_dependencies": [
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      }
+    ],
+    "portability_note": "Uses pathlib and standard-library subprocesses; fresh reader installations and other operating systems were not exercised in this authoring receipt.",
+    "python": "Python 3.11 or newer recommended; authoring exercised CPython 3.14.7 and publication CI uses 3.11 and 3.13.",
+    "requirements_note": "The dependency file pins SymPy. The observed transitive version is recorded here, not separately pinned by that file.",
+    "suggested_cpu_threads": 1,
+    "optional_authoring_accelerator": {
+      "name": "python-flint",
+      "version": "0.9.0",
+      "required": false,
+      "qualification": "Installed on the authoring host and automatically selected by SymPy. The final clean-extraction plan and CI explicitly select SYMPY_GROUND_TYPES=python to test without this optional accelerator."
+    }
+  },
+  "prepared_date": "2026-10-04",
+  "schema": "gtr-verification-environment/v1"
+}

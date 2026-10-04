@@ -1,0 +1,2210 @@
+{
+  "elapsed_seconds": 3.508422,
+  "extended_d5": true,
+  "python": "3.14.7",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "verification/verify_exact.py",
+        "--extended-d5"
+      ],
+      "exit_code": 0,
+      "outcome": "PASS",
+      "report": {
+        "checks": {
+          "binary_symmetric_exact_tree_equality": {
+            "all_eight_entries": {
+              "000": "39/256",
+              "001": "29/256",
+              "010": "15/128",
+              "011": "15/128",
+              "100": "15/128",
+              "101": "15/128",
+              "110": "29/256",
+              "111": "39/256"
+            },
+            "cycle_attenuations": [
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "equal_star_attenuations": [
+              "1/4",
+              "1/4",
+              "5/16"
+            ],
+            "gamma": "1/2",
+            "interpretation": "Exact negative control against blanket d=2 triangle separation; lengths are -log(attenuation).",
+            "pi": [
+              "1/2",
+              "1/2"
+            ],
+            "triangle_pendant_attenuations": [
+              "1/2",
+              "1/2",
+              "1/2"
+            ]
+          },
+          "general_markov_examples": [
+            {
+              "channels": {
+                "S": [
+                  [
+                    "20/27",
+                    "7/27"
+                  ],
+                  [
+                    "1/13",
+                    "12/13"
+                  ]
+                ],
+                "T": [
+                  [
+                    "10/11",
+                    "1/11"
+                  ],
+                  [
+                    "2/13",
+                    "11/13"
+                  ]
+                ],
+                "U": [
+                  [
+                    "13/17",
+                    "4/17"
+                  ],
+                  [
+                    "7/25",
+                    "18/25"
+                  ]
+                ],
+                "V": [
+                  [
+                    "10/13",
+                    "3/13"
+                  ],
+                  [
+                    "1/8",
+                    "7/8"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 2,
+              "determinants": [
+                "1216724992/84269498259375",
+                "243703321/6967112646780"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "127/3861"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "8129/149175"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "535/36504"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-653/60775"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-359/14872"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-389/11050"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "qualification": "Every positive two-state stochastic matrix is reversible; only noncommutativity is tested at d=2."
+              },
+              "pendant_identity": "not repeated at this dimension",
+              "ranks": [
+                4,
+                4,
+                4
+              ],
+              "root_distribution": [
+                "1/3",
+                "2/3"
+              ]
+            },
+            {
+              "channels": {
+                "S": [
+                  [
+                    "25/36",
+                    "7/36",
+                    "1/9"
+                  ],
+                  [
+                    "1/18",
+                    "5/6",
+                    "1/9"
+                  ],
+                  [
+                    "1/7",
+                    "1/28",
+                    "23/28"
+                  ]
+                ],
+                "T": [
+                  [
+                    "27/35",
+                    "2/35",
+                    "6/35"
+                  ],
+                  [
+                    "4/37",
+                    "28/37",
+                    "5/37"
+                  ],
+                  [
+                    "1/25",
+                    "1/5",
+                    "19/25"
+                  ]
+                ],
+                "U": [
+                  [
+                    "3/4",
+                    "1/5",
+                    "1/20"
+                  ],
+                  [
+                    "1/4",
+                    "5/7",
+                    "1/28"
+                  ],
+                  [
+                    "5/22",
+                    "1/11",
+                    "15/22"
+                  ]
+                ],
+                "V": [
+                  [
+                    "8/11",
+                    "2/11",
+                    "1/11"
+                  ],
+                  [
+                    "1/11",
+                    "26/33",
+                    "4/33"
+                  ],
+                  [
+                    "2/33",
+                    "2/11",
+                    "25/33"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 3,
+              "determinants": [
+                "32349450291009689399/464734723225904904291750000000000000",
+                "1325855522647/423409915475496450703125000"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-299/135975"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "3083/55440"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "1/756"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "42201/1424500"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-549/71225"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-163/3630"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "S": {
+                  "clockwise": "1/324",
+                  "counterclockwise": "1/4536",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "T": {
+                  "clockwise": "2/6475",
+                  "counterclockwise": "24/6475",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "U": {
+                  "clockwise": "1/616",
+                  "counterclockwise": "1/880",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "V": {
+                  "clockwise": "16/11979",
+                  "counterclockwise": "2/1331",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                }
+              },
+              "pendant_identity": "not repeated at this dimension",
+              "ranks": [
+                9,
+                9,
+                9
+              ],
+              "root_distribution": [
+                "1/6",
+                "1/3",
+                "1/2"
+              ]
+            },
+            {
+              "channels": {
+                "S": [
+                  [
+                    "29/43",
+                    "7/43",
+                    "4/43",
+                    "3/43"
+                  ],
+                  [
+                    "1/23",
+                    "18/23",
+                    "2/23",
+                    "2/23"
+                  ],
+                  [
+                    "4/31",
+                    "1/31",
+                    "25/31",
+                    "1/31"
+                  ],
+                  [
+                    "7/53",
+                    "5/53",
+                    "5/53",
+                    "36/53"
+                  ]
+                ],
+                "T": [
+                  [
+                    "33/46",
+                    "1/23",
+                    "3/23",
+                    "5/46"
+                  ],
+                  [
+                    "1/12",
+                    "17/24",
+                    "5/48",
+                    "5/48"
+                  ],
+                  [
+                    "1/36",
+                    "5/36",
+                    "25/36",
+                    "5/36"
+                  ],
+                  [
+                    "5/38",
+                    "3/38",
+                    "3/38",
+                    "27/38"
+                  ]
+                ],
+                "U": [
+                  [
+                    "23/35",
+                    "4/35",
+                    "1/35",
+                    "1/5"
+                  ],
+                  [
+                    "7/31",
+                    "22/31",
+                    "1/31",
+                    "1/31"
+                  ],
+                  [
+                    "5/27",
+                    "2/27",
+                    "2/3",
+                    "2/27"
+                  ],
+                  [
+                    "3/23",
+                    "1/23",
+                    "1/23",
+                    "18/23"
+                  ]
+                ],
+                "V": [
+                  [
+                    "27/38",
+                    "3/19",
+                    "3/38",
+                    "1/19"
+                  ],
+                  [
+                    "1/14",
+                    "31/42",
+                    "2/21",
+                    "2/21"
+                  ],
+                  [
+                    "1/23",
+                    "3/23",
+                    "16/23",
+                    "3/23"
+                  ],
+                  [
+                    "1/36",
+                    "1/6",
+                    "1/6",
+                    "23/36"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 4,
+              "determinants": [
+                "5420942951443133099099506680914043629/105650095225494424398235721865200660804366493309725224971771240234375000",
+                "12599090983834252153883111009578699242628056729/298805755784033335006383504318126400877752860759766650060800000000000000000000"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-198036367/25563351564"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "8603765/307111203"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-2368391/370483356"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "4521367/392592060"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-252173/24062094"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-1007911/23896908"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "S": {
+                  "clockwise": "56/30659",
+                  "counterclockwise": "4/30659",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "T": {
+                  "clockwise": "5/39744",
+                  "counterclockwise": "5/3312",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "U": {
+                  "clockwise": "4/5859",
+                  "counterclockwise": "2/4185",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "V": {
+                  "clockwise": "2/3059",
+                  "counterclockwise": "9/12236",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                }
+              },
+              "pendant_identity": "exact full-matrix identity on all three splits; each multiplier invertible",
+              "ranks": [
+                16,
+                16,
+                16
+              ],
+              "root_distribution": [
+                "1/10",
+                "1/5",
+                "3/10",
+                "2/5"
+              ]
+            },
+            {
+              "channels": {
+                "S": [
+                  [
+                    "17/26",
+                    "7/52",
+                    "1/13",
+                    "3/52",
+                    "1/13"
+                  ],
+                  [
+                    "1/32",
+                    "23/32",
+                    "1/16",
+                    "1/16",
+                    "1/8"
+                  ],
+                  [
+                    "1/10",
+                    "1/40",
+                    "3/4",
+                    "1/40",
+                    "1/10"
+                  ],
+                  [
+                    "7/62",
+                    "5/62",
+                    "5/62",
+                    "41/62",
+                    "2/31"
+                  ],
+                  [
+                    "1/14",
+                    "1/21",
+                    "1/14",
+                    "1/7",
+                    "2/3"
+                  ]
+                ],
+                "T": [
+                  [
+                    "40/59",
+                    "2/59",
+                    "6/59",
+                    "5/59",
+                    "6/59"
+                  ],
+                  [
+                    "4/63",
+                    "2/3",
+                    "5/63",
+                    "5/63",
+                    "1/9"
+                  ],
+                  [
+                    "1/39",
+                    "5/39",
+                    "9/13",
+                    "5/39",
+                    "1/39"
+                  ],
+                  [
+                    "5/43",
+                    "3/43",
+                    "3/43",
+                    "30/43",
+                    "2/43"
+                  ],
+                  [
+                    "2/33",
+                    "1/33",
+                    "2/33",
+                    "5/33",
+                    "23/33"
+                  ]
+                ],
+                "U": [
+                  [
+                    "25/38",
+                    "2/19",
+                    "1/38",
+                    "7/38",
+                    "1/38"
+                  ],
+                  [
+                    "7/38",
+                    "13/19",
+                    "1/38",
+                    "1/38",
+                    "3/38"
+                  ],
+                  [
+                    "5/38",
+                    "1/19",
+                    "12/19",
+                    "1/19",
+                    "5/38"
+                  ],
+                  [
+                    "3/38",
+                    "1/38",
+                    "1/38",
+                    "13/19",
+                    "7/38"
+                  ],
+                  [
+                    "1/38",
+                    "7/38",
+                    "1/38",
+                    "2/19",
+                    "25/38"
+                  ]
+                ],
+                "V": [
+                  [
+                    "31/45",
+                    "2/15",
+                    "1/15",
+                    "2/45",
+                    "1/15"
+                  ],
+                  [
+                    "3/55",
+                    "38/55",
+                    "4/55",
+                    "4/55",
+                    "6/55"
+                  ],
+                  [
+                    "2/51",
+                    "2/17",
+                    "35/51",
+                    "2/17",
+                    "2/51"
+                  ],
+                  [
+                    "1/47",
+                    "6/47",
+                    "6/47",
+                    "29/47",
+                    "5/47"
+                  ],
+                  [
+                    "7/57",
+                    "2/19",
+                    "7/57",
+                    "1/19",
+                    "34/57"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 5,
+              "determinants": [
+                "1647677902258686216018546507113481630384900927008/1843332393880091443283681170489510071077046018660008383807459484691234468940140598933794535696506500244140625",
+                "4563626514673914504241233909005466099135807488/1863920706217049437543928943115980644278426103132299400609847163772430450673404266126453876495361328125"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-4547236273/736872055920"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "55311/4287920"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "712748411/1695893799600"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-1199335/868521654"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "3880624444/5204616011595"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-391396/15864145"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "S": {
+                  "clockwise": "7/8320",
+                  "counterclockwise": "1/16640",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "T": {
+                  "clockwise": "10/144963",
+                  "counterclockwise": "40/48321",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "U": {
+                  "clockwise": "5/13718",
+                  "counterclockwise": "7/27436",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "V": {
+                  "clockwise": "16/42075",
+                  "counterclockwise": "2/4675",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                }
+              },
+              "pendant_identity": "not repeated at this dimension",
+              "ranks": [
+                25,
+                25,
+                25
+              ],
+              "root_distribution": [
+                "1/15",
+                "2/15",
+                "1/5",
+                "4/15",
+                "1/3"
+              ]
+            }
+          ],
+          "normalized_f81_examples": [
+            {
+              "d": 3,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "uniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "2/27",
+              "unnormalized_variance": "2/9"
+            },
+            {
+              "d": 3,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/6",
+                "1/3",
+                "1/2"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "nonuniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "5/54",
+              "unnormalized_variance": "5/36"
+            },
+            {
+              "d": 4,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/4",
+                "1/4",
+                "1/4",
+                "1/4"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "uniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "3/32",
+              "unnormalized_variance": "3/16"
+            },
+            {
+              "d": 4,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/10",
+                "1/5",
+                "3/10",
+                "2/5"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "nonuniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "9/125",
+              "unnormalized_variance": "9/100"
+            },
+            {
+              "d": 5,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "uniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "12/125",
+              "unnormalized_variance": "4/25"
+            },
+            {
+              "d": 5,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/15",
+                "2/15",
+                "1/5",
+                "4/15",
+                "1/3"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "nonuniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "182/3375",
+              "unnormalized_variance": "14/225"
+            }
+          ],
+          "same_topology_two_tree_mixture": {
+            "common_split": "02|13",
+            "common_split_rank": 8,
+            "components": 2,
+            "d": 4,
+            "four_cycle_proved_lower_bound": 10,
+            "mixture_weight": "3/7",
+            "scope": "Finite illustration of the analytic bound for mixtures sharing one quartet topology."
+          },
+          "semantic_mutation_controls": {
+            "determinant-exponent": "MUTATION_DETECTED[determinant-exponent]: wrong gamma exponent",
+            "f81-sign": "MUTATION_DETECTED[f81-sign]: wrong gap sign",
+            "omitted-mixture": "MUTATION_DETECTED[omitted-mixture]: omitted component leaves a tree rank",
+            "third-split-full-rank": "MUTATION_DETECTED[third-split-full-rank]: universal full crossed rank is false"
+          },
+          "symbolic_identities": {
+            "curvature_identity": "PASS",
+            "f81_gap": "A*B*C*X**2*Y**2*Z**2*gamma*(A - 1)**2*(gamma - 1)",
+            "sign_domain": "0<A<1; B,C,X,Y,Z>0; 0<gamma<1; r>0; u!=v"
+          },
+          "symmetric_and_boundary_controls": [
+            {
+              "d": 2,
+              "full_rank": 4,
+              "gamma_one_tree_boundary_rank": 2,
+              "symmetric_crossed_rank": 3
+            },
+            {
+              "d": 3,
+              "full_rank": 9,
+              "gamma_one_tree_boundary_rank": 3,
+              "symmetric_crossed_rank": 6
+            },
+            {
+              "d": 4,
+              "full_rank": 16,
+              "gamma_one_tree_boundary_rank": 4,
+              "symmetric_crossed_rank": 10
+            },
+            {
+              "d": 5,
+              "full_rank": 25,
+              "gamma_one_tree_boundary_rank": 5,
+              "symmetric_crossed_rank": 15
+            }
+          ]
+        },
+        "elapsed_seconds": 0.567894,
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": null,
+        "python": "3.14.7",
+        "python_optimization": 0,
+        "schema": "gtr-exact-verification/v1",
+        "status": "PASS",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "f81-sign"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.003212,
+        "error": "MUTATION_DETECTED[f81-sign]: wrong gap sign",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "f81-sign",
+        "python": "3.14.7",
+        "python_optimization": 0,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "determinant-exponent"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.001315,
+        "error": "MUTATION_DETECTED[determinant-exponent]: wrong gamma exponent",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "determinant-exponent",
+        "python": "3.14.7",
+        "python_optimization": 0,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "omitted-mixture"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.00179,
+        "error": "MUTATION_DETECTED[omitted-mixture]: omitted component leaves a tree rank",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "omitted-mixture",
+        "python": "3.14.7",
+        "python_optimization": 0,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "third-split-full-rank"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.004571,
+        "error": "MUTATION_DETECTED[third-split-full-rank]: universal full crossed rank is false",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "third-split-full-rank",
+        "python": "3.14.7",
+        "python_optimization": 0,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "verification/verify_exact.py",
+        "--extended-d5"
+      ],
+      "exit_code": 0,
+      "outcome": "PASS",
+      "report": {
+        "checks": {
+          "binary_symmetric_exact_tree_equality": {
+            "all_eight_entries": {
+              "000": "39/256",
+              "001": "29/256",
+              "010": "15/128",
+              "011": "15/128",
+              "100": "15/128",
+              "101": "15/128",
+              "110": "29/256",
+              "111": "39/256"
+            },
+            "cycle_attenuations": [
+              "1/4",
+              "1/2",
+              "1/2"
+            ],
+            "equal_star_attenuations": [
+              "1/4",
+              "1/4",
+              "5/16"
+            ],
+            "gamma": "1/2",
+            "interpretation": "Exact negative control against blanket d=2 triangle separation; lengths are -log(attenuation).",
+            "pi": [
+              "1/2",
+              "1/2"
+            ],
+            "triangle_pendant_attenuations": [
+              "1/2",
+              "1/2",
+              "1/2"
+            ]
+          },
+          "general_markov_examples": [
+            {
+              "channels": {
+                "S": [
+                  [
+                    "20/27",
+                    "7/27"
+                  ],
+                  [
+                    "1/13",
+                    "12/13"
+                  ]
+                ],
+                "T": [
+                  [
+                    "10/11",
+                    "1/11"
+                  ],
+                  [
+                    "2/13",
+                    "11/13"
+                  ]
+                ],
+                "U": [
+                  [
+                    "13/17",
+                    "4/17"
+                  ],
+                  [
+                    "7/25",
+                    "18/25"
+                  ]
+                ],
+                "V": [
+                  [
+                    "10/13",
+                    "3/13"
+                  ],
+                  [
+                    "1/8",
+                    "7/8"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 2,
+              "determinants": [
+                "1216724992/84269498259375",
+                "243703321/6967112646780"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "127/3861"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "8129/149175"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "535/36504"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-653/60775"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-359/14872"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-389/11050"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "qualification": "Every positive two-state stochastic matrix is reversible; only noncommutativity is tested at d=2."
+              },
+              "pendant_identity": "not repeated at this dimension",
+              "ranks": [
+                4,
+                4,
+                4
+              ],
+              "root_distribution": [
+                "1/3",
+                "2/3"
+              ]
+            },
+            {
+              "channels": {
+                "S": [
+                  [
+                    "25/36",
+                    "7/36",
+                    "1/9"
+                  ],
+                  [
+                    "1/18",
+                    "5/6",
+                    "1/9"
+                  ],
+                  [
+                    "1/7",
+                    "1/28",
+                    "23/28"
+                  ]
+                ],
+                "T": [
+                  [
+                    "27/35",
+                    "2/35",
+                    "6/35"
+                  ],
+                  [
+                    "4/37",
+                    "28/37",
+                    "5/37"
+                  ],
+                  [
+                    "1/25",
+                    "1/5",
+                    "19/25"
+                  ]
+                ],
+                "U": [
+                  [
+                    "3/4",
+                    "1/5",
+                    "1/20"
+                  ],
+                  [
+                    "1/4",
+                    "5/7",
+                    "1/28"
+                  ],
+                  [
+                    "5/22",
+                    "1/11",
+                    "15/22"
+                  ]
+                ],
+                "V": [
+                  [
+                    "8/11",
+                    "2/11",
+                    "1/11"
+                  ],
+                  [
+                    "1/11",
+                    "26/33",
+                    "4/33"
+                  ],
+                  [
+                    "2/33",
+                    "2/11",
+                    "25/33"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 3,
+              "determinants": [
+                "32349450291009689399/464734723225904904291750000000000000",
+                "1325855522647/423409915475496450703125000"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-299/135975"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "3083/55440"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "1/756"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "42201/1424500"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-549/71225"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-163/3630"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "S": {
+                  "clockwise": "1/324",
+                  "counterclockwise": "1/4536",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "T": {
+                  "clockwise": "2/6475",
+                  "counterclockwise": "24/6475",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "U": {
+                  "clockwise": "1/616",
+                  "counterclockwise": "1/880",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "V": {
+                  "clockwise": "16/11979",
+                  "counterclockwise": "2/1331",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                }
+              },
+              "pendant_identity": "not repeated at this dimension",
+              "ranks": [
+                9,
+                9,
+                9
+              ],
+              "root_distribution": [
+                "1/6",
+                "1/3",
+                "1/2"
+              ]
+            },
+            {
+              "channels": {
+                "S": [
+                  [
+                    "29/43",
+                    "7/43",
+                    "4/43",
+                    "3/43"
+                  ],
+                  [
+                    "1/23",
+                    "18/23",
+                    "2/23",
+                    "2/23"
+                  ],
+                  [
+                    "4/31",
+                    "1/31",
+                    "25/31",
+                    "1/31"
+                  ],
+                  [
+                    "7/53",
+                    "5/53",
+                    "5/53",
+                    "36/53"
+                  ]
+                ],
+                "T": [
+                  [
+                    "33/46",
+                    "1/23",
+                    "3/23",
+                    "5/46"
+                  ],
+                  [
+                    "1/12",
+                    "17/24",
+                    "5/48",
+                    "5/48"
+                  ],
+                  [
+                    "1/36",
+                    "5/36",
+                    "25/36",
+                    "5/36"
+                  ],
+                  [
+                    "5/38",
+                    "3/38",
+                    "3/38",
+                    "27/38"
+                  ]
+                ],
+                "U": [
+                  [
+                    "23/35",
+                    "4/35",
+                    "1/35",
+                    "1/5"
+                  ],
+                  [
+                    "7/31",
+                    "22/31",
+                    "1/31",
+                    "1/31"
+                  ],
+                  [
+                    "5/27",
+                    "2/27",
+                    "2/3",
+                    "2/27"
+                  ],
+                  [
+                    "3/23",
+                    "1/23",
+                    "1/23",
+                    "18/23"
+                  ]
+                ],
+                "V": [
+                  [
+                    "27/38",
+                    "3/19",
+                    "3/38",
+                    "1/19"
+                  ],
+                  [
+                    "1/14",
+                    "31/42",
+                    "2/21",
+                    "2/21"
+                  ],
+                  [
+                    "1/23",
+                    "3/23",
+                    "16/23",
+                    "3/23"
+                  ],
+                  [
+                    "1/36",
+                    "1/6",
+                    "1/6",
+                    "23/36"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 4,
+              "determinants": [
+                "5420942951443133099099506680914043629/105650095225494424398235721865200660804366493309725224971771240234375000",
+                "12599090983834252153883111009578699242628056729/298805755784033335006383504318126400877752860759766650060800000000000000000000"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-198036367/25563351564"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "8603765/307111203"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-2368391/370483356"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "4521367/392592060"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-252173/24062094"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-1007911/23896908"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "S": {
+                  "clockwise": "56/30659",
+                  "counterclockwise": "4/30659",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "T": {
+                  "clockwise": "5/39744",
+                  "counterclockwise": "5/3312",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "U": {
+                  "clockwise": "4/5859",
+                  "counterclockwise": "2/4185",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "V": {
+                  "clockwise": "2/3059",
+                  "counterclockwise": "9/12236",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                }
+              },
+              "pendant_identity": "exact full-matrix identity on all three splits; each multiplier invertible",
+              "ranks": [
+                16,
+                16,
+                16
+              ],
+              "root_distribution": [
+                "1/10",
+                "1/5",
+                "3/10",
+                "2/5"
+              ]
+            },
+            {
+              "channels": {
+                "S": [
+                  [
+                    "17/26",
+                    "7/52",
+                    "1/13",
+                    "3/52",
+                    "1/13"
+                  ],
+                  [
+                    "1/32",
+                    "23/32",
+                    "1/16",
+                    "1/16",
+                    "1/8"
+                  ],
+                  [
+                    "1/10",
+                    "1/40",
+                    "3/4",
+                    "1/40",
+                    "1/10"
+                  ],
+                  [
+                    "7/62",
+                    "5/62",
+                    "5/62",
+                    "41/62",
+                    "2/31"
+                  ],
+                  [
+                    "1/14",
+                    "1/21",
+                    "1/14",
+                    "1/7",
+                    "2/3"
+                  ]
+                ],
+                "T": [
+                  [
+                    "40/59",
+                    "2/59",
+                    "6/59",
+                    "5/59",
+                    "6/59"
+                  ],
+                  [
+                    "4/63",
+                    "2/3",
+                    "5/63",
+                    "5/63",
+                    "1/9"
+                  ],
+                  [
+                    "1/39",
+                    "5/39",
+                    "9/13",
+                    "5/39",
+                    "1/39"
+                  ],
+                  [
+                    "5/43",
+                    "3/43",
+                    "3/43",
+                    "30/43",
+                    "2/43"
+                  ],
+                  [
+                    "2/33",
+                    "1/33",
+                    "2/33",
+                    "5/33",
+                    "23/33"
+                  ]
+                ],
+                "U": [
+                  [
+                    "25/38",
+                    "2/19",
+                    "1/38",
+                    "7/38",
+                    "1/38"
+                  ],
+                  [
+                    "7/38",
+                    "13/19",
+                    "1/38",
+                    "1/38",
+                    "3/38"
+                  ],
+                  [
+                    "5/38",
+                    "1/19",
+                    "12/19",
+                    "1/19",
+                    "5/38"
+                  ],
+                  [
+                    "3/38",
+                    "1/38",
+                    "1/38",
+                    "13/19",
+                    "7/38"
+                  ],
+                  [
+                    "1/38",
+                    "7/38",
+                    "1/38",
+                    "2/19",
+                    "25/38"
+                  ]
+                ],
+                "V": [
+                  [
+                    "31/45",
+                    "2/15",
+                    "1/15",
+                    "2/45",
+                    "1/15"
+                  ],
+                  [
+                    "3/55",
+                    "38/55",
+                    "4/55",
+                    "4/55",
+                    "6/55"
+                  ],
+                  [
+                    "2/51",
+                    "2/17",
+                    "35/51",
+                    "2/17",
+                    "2/51"
+                  ],
+                  [
+                    "1/47",
+                    "6/47",
+                    "6/47",
+                    "29/47",
+                    "5/47"
+                  ],
+                  [
+                    "7/57",
+                    "2/19",
+                    "7/57",
+                    "1/19",
+                    "34/57"
+                  ]
+                ]
+              },
+              "crossed_row_basis_identity": "PASS",
+              "d": 5,
+              "determinants": [
+                "1647677902258686216018546507113481630384900927008/1843332393880091443283681170489510071077046018660008383807459484691234468940140598933794535696506500244140625",
+                "4563626514673914504241233909005466099135807488/1863920706217049437543928943115980644278426103132299400609847163772430450673404266126453876495361328125"
+              ],
+              "noncommuting_witnesses": {
+                "ST": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-4547236273/736872055920"
+                },
+                "SU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "55311/4287920"
+                },
+                "SV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "712748411/1695893799600"
+                },
+                "TU": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-1199335/868521654"
+                },
+                "TV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "3880624444/5204616011595"
+                },
+                "UV": {
+                  "entry": [
+                    0,
+                    0
+                  ],
+                  "value": "-391396/15864145"
+                }
+              },
+              "nonreversibility_witnesses": {
+                "S": {
+                  "clockwise": "7/8320",
+                  "counterclockwise": "1/16640",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "T": {
+                  "clockwise": "10/144963",
+                  "counterclockwise": "40/48321",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "U": {
+                  "clockwise": "5/13718",
+                  "counterclockwise": "7/27436",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                },
+                "V": {
+                  "clockwise": "16/42075",
+                  "counterclockwise": "2/4675",
+                  "cycle": [
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                }
+              },
+              "pendant_identity": "not repeated at this dimension",
+              "ranks": [
+                25,
+                25,
+                25
+              ],
+              "root_distribution": [
+                "1/15",
+                "2/15",
+                "1/5",
+                "4/15",
+                "1/3"
+              ]
+            }
+          ],
+          "normalized_f81_examples": [
+            {
+              "d": 3,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/3",
+                "1/3",
+                "1/3"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "uniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "2/27",
+              "unnormalized_variance": "2/9"
+            },
+            {
+              "d": 3,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/6",
+                "1/3",
+                "1/2"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "nonuniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "5/54",
+              "unnormalized_variance": "5/36"
+            },
+            {
+              "d": 4,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/4",
+                "1/4",
+                "1/4",
+                "1/4"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "uniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "3/32",
+              "unnormalized_variance": "3/16"
+            },
+            {
+              "d": 4,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/10",
+                "1/5",
+                "3/10",
+                "2/5"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "nonuniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "9/125",
+              "unnormalized_variance": "9/100"
+            },
+            {
+              "d": 5,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5",
+                "1/5"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "uniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "12/125",
+              "unnormalized_variance": "4/25"
+            },
+            {
+              "d": 5,
+              "normalized_pairs": [
+                "2/15",
+                "201/1960",
+                "443/4900"
+              ],
+              "pi": [
+                "1/15",
+                "2/15",
+                "1/5",
+                "4/15",
+                "1/3"
+              ],
+              "selected_state": 0,
+              "star_gap": "0",
+              "stationary_type": "nonuniform",
+              "triangle_gap": "-2/42875",
+              "triple_over_kappa": "169/4900",
+              "unnormalized_cubic": "182/3375",
+              "unnormalized_variance": "14/225"
+            }
+          ],
+          "same_topology_two_tree_mixture": {
+            "common_split": "02|13",
+            "common_split_rank": 8,
+            "components": 2,
+            "d": 4,
+            "four_cycle_proved_lower_bound": 10,
+            "mixture_weight": "3/7",
+            "scope": "Finite illustration of the analytic bound for mixtures sharing one quartet topology."
+          },
+          "semantic_mutation_controls": {
+            "determinant-exponent": "MUTATION_DETECTED[determinant-exponent]: wrong gamma exponent",
+            "f81-sign": "MUTATION_DETECTED[f81-sign]: wrong gap sign",
+            "omitted-mixture": "MUTATION_DETECTED[omitted-mixture]: omitted component leaves a tree rank",
+            "third-split-full-rank": "MUTATION_DETECTED[third-split-full-rank]: universal full crossed rank is false"
+          },
+          "symbolic_identities": {
+            "curvature_identity": "PASS",
+            "f81_gap": "A*B*C*X**2*Y**2*Z**2*gamma*(A - 1)**2*(gamma - 1)",
+            "sign_domain": "0<A<1; B,C,X,Y,Z>0; 0<gamma<1; r>0; u!=v"
+          },
+          "symmetric_and_boundary_controls": [
+            {
+              "d": 2,
+              "full_rank": 4,
+              "gamma_one_tree_boundary_rank": 2,
+              "symmetric_crossed_rank": 3
+            },
+            {
+              "d": 3,
+              "full_rank": 9,
+              "gamma_one_tree_boundary_rank": 3,
+              "symmetric_crossed_rank": 6
+            },
+            {
+              "d": 4,
+              "full_rank": 16,
+              "gamma_one_tree_boundary_rank": 4,
+              "symmetric_crossed_rank": 10
+            },
+            {
+              "d": 5,
+              "full_rank": 25,
+              "gamma_one_tree_boundary_rank": 5,
+              "symmetric_crossed_rank": 15
+            }
+          ]
+        },
+        "elapsed_seconds": 0.549292,
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": null,
+        "python": "3.14.7",
+        "python_optimization": 1,
+        "schema": "gtr-exact-verification/v1",
+        "status": "PASS",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "f81-sign"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.003668,
+        "error": "MUTATION_DETECTED[f81-sign]: wrong gap sign",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "f81-sign",
+        "python": "3.14.7",
+        "python_optimization": 1,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "determinant-exponent"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.001336,
+        "error": "MUTATION_DETECTED[determinant-exponent]: wrong gamma exponent",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "determinant-exponent",
+        "python": "3.14.7",
+        "python_optimization": 1,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "omitted-mixture"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.002126,
+        "error": "MUTATION_DETECTED[omitted-mixture]: omitted component leaves a tree rank",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "omitted-mixture",
+        "python": "3.14.7",
+        "python_optimization": 1,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-O",
+        "verification/verify_exact.py",
+        "--extended-d5",
+        "--mutation",
+        "third-split-full-rank"
+      ],
+      "exit_code": 1,
+      "outcome": "EXPECTED_FAILURE_DETECTED",
+      "report": {
+        "elapsed_seconds": 0.004813,
+        "error": "MUTATION_DETECTED[third-split-full-rank]: universal full crossed rank is false",
+        "error_type": "VerificationError",
+        "formal_verification": false,
+        "kind": "exact symbolic identities and finite rational example checks",
+        "mutation": "third-split-full-rank",
+        "python": "3.14.7",
+        "python_optimization": 1,
+        "schema": "gtr-exact-verification/v1",
+        "status": "FAIL",
+        "sympy": "1.14.0",
+        "universal_proof": "The analytic article, not finite testing, establishes the universal claims."
+      },
+      "stderr": ""
+    }
+  ],
+  "schema": "gtr-replay-receipt/v1",
+  "scope": "Exact identities and finite examples; neither a universal proof nor proof-assistant verification.",
+  "source_sha256": {
+    "README.md": "28b44aad819fc3759a36ccea39b49f24050be4110cc8830555be0eeb8a3de90d",
+    "replay.py": "bd4d90419b172d6276ca25e46606f304fabf1b284237bf53810722e287cfec4a",
+    "requirements.txt": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+    "verify_exact.py": "a13cf8409429eb368ea308868f40cd5460d9bc6714b871d660bf1f4177997fd0"
+  },
+  "started_utc": "2026-10-04T16:51:02.597971+00:00",
+  "status": "PASS",
+  "summary": {
+    "baseline_passes": 2,
+    "expected_mutation_failures": 8,
+    "markov_dimensions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "normal_optimized_mathematical_results_identical": true
+  },
+  "public_redaction": "Only machine-local absolute interpreter/script paths in command displays were replaced by portable equivalents. Mathematical results, source hashes, timestamps and exit codes are unchanged. Original receipt retained separately."
+}

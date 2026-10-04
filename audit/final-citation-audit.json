@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-10-04T16:33:01.540070+00:00",
+  "status": "PASS_CITATION_SCOPE_AND_IDENTITY",
+  "files": [
+    {
+      "path": "paper.tex",
+      "sha256": "3177f8135159a525447b3ec1aea0fd6f62e65ef9823b6da77ad58456ed8fbf75",
+      "bytes": 54080
+    },
+    {
+      "path": "paper.md",
+      "sha256": "9a283634700fc9c87f776dbcadf2f02e21118b819d124594ec9f00dc2587233e",
+      "bytes": 54673
+    },
+    {
+      "path": "references.bib",
+      "sha256": "83796acdbfa37498d494d050384c253ea0033c03707235b16e7d8e439d44c127",
+      "bytes": 7114
+    },
+    {
+      "path": "CITATION_AUDIT.md",
+      "sha256": "af5987ee2df8018b877e5a9dc042acd4560758aaf9f868aebf4f5539fb95270b",
+      "bytes": 2887
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "5c31b401c9cbaa4c580313c838dd22c8bc95113ff06b0d54c41e5bf0d21db6ae",
+      "bytes": 5334
+    },
+    {
+      "path": "research/prior-art.md",
+      "sha256": "958075128d8964276b97fde170248c16b8d5323435b324bd702206a719572ecd",
+      "bytes": 4540
+    },
+    {
+      "path": "research/theorem-comparison.md",
+      "sha256": "531e01c886410cd053d02fee38959dd352998b43a17dec4f0b3637ef963bef11",
+      "bytes": 2508
+    },
+    {
+      "path": "research/source-manifest.json",
+      "sha256": "9c05d8d5f54f5d4fdd084640ab602ab680fddda311e925001c55d7dd22172d9f",
+      "bytes": 16421
+    }
+  ],
+  "checks": {
+    "tex_citation_occurrences": 36,
+    "md_citation_links": 36,
+    "unique_bibliography_entries": 15,
+    "missing_citations": [],
+    "missing_md_anchors": [],
+    "literal_26_word_source_matches_in_article_prose": []
+  },
+  "limits": [
+    "Citation audit is not a mathematical proof audit or worldwide priority certification",
+    "Manual source-derived prose budget review counts the TeX/Markdown article as one work and excludes bibliographic metadata, formulas and independently supplied proofs",
+    "No exact automatic classifier for source-derived versus independently developed prose is claimed"
+  ]
+}

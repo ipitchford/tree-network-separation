@@ -1,0 +1,356 @@
+{
+  "schemaVersion": "1.0",
+  "contributionMap": [
+    {
+      "claim": "Sharp crossed-flattening rank at least d(d+1)/2 for every positive invertible d-state Markov four-cycle, attained for every d>=2",
+      "unit": "statement",
+      "paperLocation": "Main sharp-rank theorem and proof",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "phylogenetic networks flattening \"d(d+1)\"; phylogenetic network four cycle flattening rank \"10\" \"16\"",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Sullivant arXiv2507.23056v2 Theorems7.8/7.11: universal upper/generic lower; IMSI2025 slide23: generic five-author theorem",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Exclusion of at most floor(d/2) GM tree classes sharing one freely chosen topology, including two classes at d=4",
+      "unit": "statement",
+      "paperLocation": "Fixed-topology mixture corollary",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "\"phylogenetic network\" \"two\" \"mixture\" \"rank\" \"tree\" distinguishability; \"four-cycle\" \"mixture\" \"general Markov\"",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Allman-Rhodes-Sullivant2012 Thms1/3 establish mixture rank mechanisms and stronger JC/K2P special cases",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Reduction to a positive Markov four-cycle from larger single-reticulation networks with at least four observable attachments including hybrid attachment",
+      "unit": "proof",
+      "paperLocation": "Observable-quartet reduction lemma and larger-network corollary",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "\"Parsimony and the rank of a flattening matrix\" theorem 8 positive; \"phylogenetic networks\" \"invertible\" \"rank\" Markov separation",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Snyman-Fox-Bryant2023 Proposition6 rerooting and Lemma11 marginal rank; explicit common-backbone reduction applied here",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "A shared stationary homogeneous reversible triangle is separated from all homogeneous stationary reversible trees for d>=3 and binary nonuniform stationary frequencies",
+      "unit": "statement",
+      "paperLocation": "Triangle separation theorem, spectral and equal-input cases",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "phylogenetic networks triangle F81 nonuniform stationary reversible general states tree distinguishability",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Englander2025Prop2.26 and Currie2026Thm3.1/AppA give knownJC defect; Casanellas-Steel2017 gives equal-input framework; Brits2026v3Thm4.9 group-based all-parameter result",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Triangle separation holds against the full competing tree closure, with compact-domain positive margins but no global uniform margin",
+      "unit": "statement",
+      "paperLocation": "Tree-closure theorem and compact separation corollary",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "shared-Q reversible triangle strict positive flattening; triangle stationary phylogenetic identifiability",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Known exactJC obstruction does not by itself provide the varying-generator closure proof; proof uses continuous SPD logarithm and trace-normalized generator compactness",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "Binary uniform triangle has exact tree mimic iff Z^2qr<A, with explicit positive rational full-tensor example",
+      "unit": "statement",
+      "paperLocation": "Binary symmetric classification proposition",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "\"Maximum Likelihood Estimation for Unrooted 3-Leaf Trees\"; \"triangle CFN phylogenetic network tree parameters\"",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Hill-Roch-Rodriguez2024Eqs12/15/21Table1Lemma4.1: standardCFN inversion and positivity geometry; substituted into triangle parameterization",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "The rank residual is positive against the fixed-topology mixture closure and gives a conservative iid level-alpha consistent test",
+      "unit": "statement",
+      "paperLocation": "Observable distance and iid-test corollaries",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "\"Hypothesis Testing With Rank Conditions in Phylogenetics\"; \"The approximation of one matrix by another of lower rank\"",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Eckart-Young1936, Long-Kubatko2021Section2 and Hoeffding1963 provide standard distance/concentration arguments; positivity follows from sharp network bound",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Tree factorization, rank subadditivity, invertible Kronecker leaf actions, Bayes rerooting and SVD-distance testing",
+      "unit": "method",
+      "paperLocation": "Rank proofs, restriction lemmas and residual test",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "\"four-cycle\" \"general Markov\" phylogenetic rank; \"phylogenetic mixtures\" \"mimic\" \"network\" rank",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Snyman-Fox-Bryant2023; Allman-Rhodes-Sullivant2012; Sullivant2507.23056v2; Long-Kubatko2021",
+      "verdict": "known-cited"
+    },
+    {
+      "claim": "The JC specialization of the third-moment defect is exactly the previously published triangle polynomial",
+      "unit": "identification",
+      "paperLocation": "Related-work comparison and triangle proof attribution",
+      "searches": [
+        {
+          "date": "2026-10-04",
+          "query": "2606.26673; Identifiability of Phylogenetic Level-2 Networks under the Jukes-Cantor Model",
+          "corpus": "Primary arXiv/bioRxiv/publisher/repository full texts, author pages and conference slide theorem statements; see research/prior-art.md"
+        }
+      ],
+      "closestPriorWork": "Englander2025Prop2.26; Currie2026AppAEq24; exact parameter map in research/theorem-comparison.md",
+      "verdict": "collision",
+      "resolution": "Credit prior identity explicitly. Residual scope is nonuniform equal-input extension plus exhaustive shared-reversible spectral and closure arguments; no new JC invariant claim."
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "On Tree-Network Distinguishability and Full Identifiability of Phylogenetic Networks",
+      "usedFor": "Lemma 4.2; Theorem 4.9; Corollary 5.7; Section 6",
+      "readWhat": "Lemma 4.2; Theorem 4.9; Corollary 5.7; Section 6",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://arxiv.org/pdf/2607.12919v3 ; Lemma 4.2; Theorem 4.9; Corollary 5.7; Section 6"
+    },
+    {
+      "citation": "Semialgebraic Conditions for Identifying Triangles in Phylogenetic Networks",
+      "usedFor": "Theorem 3.1 p10; Appendix A pp25-26; Eqs23-24",
+      "readWhat": "Theorem 3.1 p10; Appendix A pp25-26; Eqs23-24",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://arxiv.org/pdf/2606.26673v1 ; Theorem 3.1 p10; Appendix A pp25-26; Eqs23-24"
+    },
+    {
+      "citation": "Identifiability of Phylogenetic Level-2 Networks under the Jukes-Cantor Model",
+      "usedFor": "Proposition 2.26 p20, triangle case; Appendix A",
+      "readWhat": "Proposition 2.26 p20, triangle case; Appendix A",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://www.biorxiv.org/content/biorxiv/early/2025/04/24/2025.04.18.649493.full.pdf ; Proposition 2.26 p20, triangle case; Appendix A"
+    },
+    {
+      "citation": "Distinguishing level-1 phylogenetic networks on the basis of data generated by Markov processes",
+      "usedFor": "Theorems 1-2 p3; generic-identifiability definition; proof Theorem2",
+      "readWhat": "Theorems 1-2 p3; generic-identifiability definition; proof Theorem2",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://d-nb.info/1246602687/34 ; Theorems 1-2 p3; generic-identifiability definition; proof Theorem2"
+    },
+    {
+      "citation": "Phylogenetic Network Models as Graphical Models",
+      "usedFor": "Theorems7.8 p22 and7.11 p23; reference[6]",
+      "readWhat": "Theorems7.8 p22 and7.11 p23; reference[6]",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://arxiv.org/pdf/2507.23056v2 ; Theorems7.8 p22 and7.11 p23; reference[6]"
+    },
+    {
+      "citation": "Phylogenetic Invariants: From the General Markov to Equivariant Models",
+      "usedFor": "Theorem5.3 p24; Theorem5.9 p28; discussion pp29-30; reference[7]",
+      "readWhat": "Theorem5.3 p24; Theorem5.9 p28; discussion pp29-30; reference[7]",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://upcommons.upc.edu/bitstreams/64c02f47-27df-4742-8f63-2dccffb82e2d/download ; Theorem5.3 p24; Theorem5.9 p28; discussion pp29-30; reference[7]"
+    },
+    {
+      "citation": "Rank conditions on phylogenetic networks",
+      "usedFor": "Theorem2.1 and warning after Corollary2.2 p3; Theorem3.1",
+      "readWhat": "Theorem2.1 and warning after Corollary2.2 p3; Theorem3.1",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://arxiv.org/pdf/2004.12988v1 ; Theorem2.1 and warning after Corollary2.2 p3; Theorem3.1"
+    },
+    {
+      "citation": "Phylogenetic Network Models and Graphical Models",
+      "usedFor": "Slide23 generic rank theorem and slide13 dimension result attributed to five-author collaboration",
+      "readWhat": "Slide23 generic rank theorem and slide13 dimension result attributed to five-author collaboration",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://cdn.imsi.institute/videos/59496/IKcB160s62/slides.pdf ; Slide23 generic rank theorem and slide13 dimension result attributed to five-author collaboration"
+    },
+    {
+      "citation": "Parsimony and the rank of a flattening matrix",
+      "usedFor": "ConditionsC1-C3 and Proposition6 p8; Theorem8 p9; Lemma11 p10",
+      "readWhat": "ConditionsC1-C3 and Proposition6 p8; Theorem8 p9; Lemma11 p10",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://link.springer.com/content/pdf/10.1007/s00285-023-01875-y.pdf ; ConditionsC1-C3 and Proposition6 p8; Theorem8 p9; Lemma11 p10"
+    },
+    {
+      "citation": "When Do Phylogenetic Mixture Models Mimic Other Phylogenetic Models?",
+      "usedFor": "Theorem1 p8; Theorem3 p12; Lemma2/proofTheorem1 pp16-17",
+      "readWhat": "Theorem1 p8; Theorem3 p12; Lemma2/proofTheorem1 pp16-17",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://arxiv.org/pdf/1202.2396v2 ; Theorem1 p8; Theorem3 p12; Lemma2/proofTheorem1 pp16-17"
+    },
+    {
+      "citation": "Phylogenetic mixtures and linear invariants for equal input models",
+      "usedFor": "Section2.1; Theorems1-3; independent arXiv metadata v3 dated2016-09-06",
+      "readWhat": "Section2.1; Theorems1-3; independent arXiv metadata v3 dated2016-09-06",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/mixtures.pdf ; Section2.1; Theorems1-3; independent arXiv metadata v3 dated2016-09-06"
+    },
+    {
+      "citation": "Maximum Likelihood Estimation for Unrooted 3-Leaf Trees: An Analytic Solution for the CFN Model",
+      "usedFor": "Equations12,15,21; Table1; Lemma4.1",
+      "readWhat": "Equations12,15,21; Table1; Lemma4.1",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://par.nsf.gov/servlets/purl/10528041 ; Equations12,15,21; Table1; Lemma4.1"
+    },
+    {
+      "citation": "SIAM Conference on Applied Algebraic Geometry 2025: Abstracts",
+      "usedFor": "MS95 equivariant-network abstract, printed p69",
+      "readWhat": "MS95 equivariant-network abstract, printed p69",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://www.siam.org/media/13rgukxr/ag25_abstracts.pdf ; MS95 equivariant-network abstract, printed p69"
+    },
+    {
+      "citation": "RSME 2026: Geometría Algebraica Aplicada y Computacional",
+      "usedFor": "Distinguishing phylogenetic networks, five authors, p10",
+      "readWhat": "Distinguishing phylogenetic networks, five authors, p10",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://2026.bienalrsme.com/sites/default/files/Geometria_Algebraica_Aplicada_y_Computacional.pdf ; Distinguishing phylogenetic networks, five authors, p10"
+    },
+    {
+      "citation": "Identifiability of a Simple Model of Lateral Gene Transfer",
+      "usedFor": "Introduction, process assumptions, Theorem1.1",
+      "readWhat": "Introduction, process assumptions, Theorem1.1",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://arxiv.org/html/2609.12312v1 ; Introduction, process assumptions, Theorem1.1"
+    },
+    {
+      "citation": "Hypothesis Testing With Rank Conditions in Phylogenetics",
+      "usedFor": "Sections2-3: SVD score, distance lowerbound and hypothesis testing",
+      "readWhat": "Sections2-3: SVD score, distance lowerbound and hypothesis testing",
+      "date": "2026-10-04",
+      "evidenceLocator": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2021.664357/full ; Sections2-3: SVD score, distance lowerbound and hypothesis testing"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Original four-state restriction",
+      "closingQuestion": "Does the proof extend to other finite state counts?",
+      "triedOrSearched": "Split spectral proof into multi-rate/equal-input cases; normalized indicator contrast works for d>=3 and nonuniform binary; supplied binaryuniform full-tensor control",
+      "decision": "CLOSED",
+      "cheap": true,
+      "estimatedCost": "Completed during revision",
+      "reasonOpen": "",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Original weak crossed-rank bound",
+      "closingQuestion": "Can row-space structure yield a sharp bound?",
+      "triedOrSearched": "Proved diagonal-plus-successive-offdiagonal filtration and matching symmetric family; two internal independent derivations checked it",
+      "decision": "CLOSED",
+      "cheap": true,
+      "estimatedCost": "Completed during revision",
+      "reasonOpen": "",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Exact equality versus closure and finite observations",
+      "closingQuestion": "Do rank distance and continuous generator normalization resolve nearby-boundary questions?",
+      "triedOrSearched": "Proved full treeclosure exclusion, computableSVDmixtureclosure residual and conservativeiidtest; globalmarginzero by inheritanceboundary",
+      "decision": "CLOSED",
+      "cheap": true,
+      "estimatedCost": "Completed during revision",
+      "reasonOpen": "",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Unlocated full five-author equivariant manuscript",
+      "closingQuestion": "Is its public theorem stronger than generic?",
+      "triedOrSearched": "Inspected explicitIMSI2025slide23 genericstatement and citedupperbounds; checked listedauthorpages/conferenceabstracts",
+      "decision": "OPEN",
+      "cheap": true,
+      "estimatedCost": "Bounded accessible-source search completed; access to undisclosed manuscript unknown",
+      "reasonOpen": "Public statement does not subsume candidate but further unpublished priority cannot be assessed",
+      "whyNotClosedNow": "Additional identical searches do not supply unavailable text; no first-everclaim made and no unsolicitedauthoroutreach authorized"
+    },
+    {
+      "limitation": "Different generators on triangle edges",
+      "closingQuestion": "Can a known theorem replace the pure-pair shared-generator logarithm step?",
+      "triedOrSearched": "Compared group-based separation and equivariant rank sources; pairanchor cannot constrain unrelated edgegenerators",
+      "decision": "OPEN",
+      "cheap": false,
+      "estimatedCost": "Substantive new theorem; effort unknown",
+      "reasonOpen": "Current proof depends on sharedgenerator within each object",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Several reticulations or unobservable cycle attachments",
+      "closingQuestion": "Does pruning preserve effective nonsingularity?",
+      "triedOrSearched": "Exhibited positive invertible2statechannels whose mean is singular; proved only single-reticulation reduction",
+      "decision": "OPEN",
+      "cheap": false,
+      "estimatedCost": "Substantive new model-specific argument; effort unknown",
+      "reasonOpen": "Unobservedreticulations can induce singular convex mixtures; current reduction does not apply",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "More than floor(d/2) common-topology treeclasses",
+      "closingQuestion": "Is the sharp rank bound sufficient to decide the remaining mixtureintersection?",
+      "triedOrSearched": "Compared md with d(d+1)/2; bound stops separating beyond statedintegerthreshold; highermodelconstraintsneeded",
+      "decision": "OPEN",
+      "cheap": false,
+      "estimatedCost": "Substantive new mixturegeometry question; effort unknown",
+      "reasonOpen": "Rankbound alone supplies no classification beyondthreshold",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Practical finite-sample power, floating-point error and dependent sites",
+      "closingQuestion": "Does the simple iid concentration argument provide a usable biological procedure?",
+      "triedOrSearched": "Derived explicitconservativelevelalpha thresholdandpointwiseconsistency; no empiricalcalibration performed",
+      "decision": "OPEN",
+      "cheap": false,
+      "estimatedCost": "Numericalerroranalysis and empiricalstudy; effortunknown",
+      "reasonOpen": "Statistical assumptions and numericalthresholds need validation for applications",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "External review and formal proof",
+      "closingQuestion": "Can internalexactexecution replace unaffiliated assessment or proofassistant verification?",
+      "triedOrSearched": "Targeted internal proof/citationaudits plus rational/symbolicreplays conducted; statuskeptcandidate",
+      "decision": "OPEN",
+      "cheap": false,
+      "estimatedCost": "Requires separate independent scientific assessment or formalization",
+      "reasonOpen": "Internalchecking cannot establish externalreview or formalcertification",
+      "whyNotClosedNow": ""
+    }
+  ],
+  "extensionScout": {
+    "by": "Codex coordinating root, algebra, triangle and citation agents; internal AI-assisted work",
+    "date": "2026-10-04",
+    "proposals": [
+      "Sharp crossedrank",
+      "Finite same-topology tree mixtures",
+      "ArbitrarytaxonGMreduction",
+      "Generaldstate triangleboundary",
+      "Treeclosure and computablemargin"
+    ],
+    "actions": [
+      "Proved/audited sharpd(d+1)/2 andsymmetricattainment",
+      "Derived floor(d/2) exclusion",
+      "Proved common-backboneBayesreversal reduction",
+      "Provedd>=3andnonuniformbinary;classifieduniformbinary",
+      "Provedclosures andconservativeiidtest;keptglobalmarginzero"
+    ]
+  }
+}

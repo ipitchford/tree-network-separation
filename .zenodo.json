@@ -1,0 +1,35 @@
+{
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "description": "<p>Unrefereed mathematical candidate with analytic proofs and exact formula/example checks. A positive invertible d-state Markov four-cycle has two flattening ranks d squared and a sharp crossed-rank lower bound d(d+1)/2. This excludes mixtures of at most floor(d/2) general Markov components sharing one tree topology, and extends through observable quartet marginals. A separate stationary homogeneous reversible triangle theorem covers d at least 3 and binary nonuniform stationary frequencies, with a complete binary-symmetric exception and closure analysis.</p><p>Known JC/CFN special cases and standard rank, rerooting and SVD tools are credited. Internal coordinated AI-assisted checking is not external specialist peer review, independent reproduction, formal verification, a priority certificate or an awarded REF rating. Finite rational and symbolic checks support formulas; universal statements rest on the written proofs. Original prose/data/records are CC0-1.0; original code is MIT. Scholarly creator: Anonymous. Maintainer and publisher: Ian Pitchford.</p>",
+  "keywords": [
+    "phylogenetic networks",
+    "general Markov model",
+    "tensor flattenings",
+    "tree mixtures",
+    "reversible Markov chains",
+    "candidate"
+  ],
+  "license": "cc-zero",
+  "publication_date": "2026-10-04",
+  "publication_type": "preprint",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/tree-network-separation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/ipitchford/tree-network-separation/releases/tag/v0.1.0-candidate",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ],
+  "title": "Sharp rank bounds and all-parameter tree–network separation",
+  "upload_type": "publication",
+  "version": "0.1.0-candidate"
+}

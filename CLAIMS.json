@@ -1,0 +1,308 @@
+{
+  "schema": "gtr-research-claims/v1",
+  "document_status": "unrefereed-candidate",
+  "prepared_date": "2026-10-04",
+  "title": "Sharp rank bounds and all-parameter tree–network separation",
+  "scope_note": "The final analytic paper supports the seven stated claims. Finite computation checks selected identities and examples; it does not establish a universal quantifier.",
+  "article_locators_status": "Bound to actual labels and numbers in the compiled paper.tex.",
+  "review_status": {
+    "internal_ai_proof_review": "performed for revision arguments; supplementary review notes describe scope",
+    "independent_external_peer_review": "not established",
+    "formal_proof_assistant_verification": false,
+    "official_ref_assessment": false
+  },
+  "novelty_status": {
+    "finding": "The inspected primary theorem statements did not fully subsume the delimited residual results.",
+    "qualification": "Bounded literature comparison, not an exhaustive priority certificate. The announced equivariant-network collaboration was assessed through its public generic theorem statement; a complete manuscript was not located.",
+    "known_results_credited": [
+      "Jukes-Cantor triangle obstruction",
+      "tree and mixture flattening upper bounds",
+      "Markov rerooting and marginalization",
+      "CFN moment inversion",
+      "Eckart-Young distance identity",
+      "Hoeffding concentration inequality"
+    ]
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "name": "Sharp universal four-cycle flattening ranks",
+      "kind": "analytic_theorem",
+      "statement": "For every integer d>=2, C_ijkl=p_i S_ij T_ik [gamma U_jl+(1-gamma)V_kl] has displayed-split ranks d^2 and crossed-split rank at least d(d+1)/2. The crossed lower bound is sharp for every d. All these ranks are preserved by invertible stochastic pendant channels.",
+      "assumptions": [
+        "p is a strictly positive probability vector",
+        "S,T,U,V are strictly positive invertible row-stochastic d-by-d matrices",
+        "0<gamma<1",
+        "shared-edge displayed-tree mixture"
+      ],
+      "does_not_require": [
+        "stationarity",
+        "reversibility",
+        "a common generator",
+        "commuting channels",
+        "generic parameters"
+      ],
+      "scope_limits": [
+        "No assertion that every intermediate crossed rank is attainable",
+        "No universal full-rank assertion for the crossed split",
+        "Positivity and invertibility are substantive hypotheses"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "thm:rank",
+            "number": "3.1"
+          }
+        ]
+      },
+      "finite_checks": [
+        "general_markov_examples",
+        "symmetric_and_boundary_controls",
+        "semantic_mutation_controls.third-split-full-rank"
+      ],
+      "finite_check_coverage": "Exact selected examples at d=2,3,4,5, determinant formulas, crossed-row transform, pendant identities, and sharp symmetric ranks 3,6,10,15. Universal lower bound comes from the proof.",
+      "dependencies": []
+    },
+    {
+      "id": "C2",
+      "name": "Exclusion of bounded mixtures on one tree topology",
+      "kind": "analytic_corollary",
+      "statement": "A four-cycle satisfying C1 cannot equal a mixture of m d-state general Markov trees sharing any one quartet topology when 1<=m<=floor(d/2). In particular a four-state four-cycle cannot equal any two-component common-topology general Markov tree mixture.",
+      "assumptions": [
+        "C1 hypotheses",
+        "all competing mixture components share one quartet tree topology",
+        "m<=floor(d/2)"
+      ],
+      "scope_limits": [
+        "The common-topology condition is essential",
+        "Components may have unrelated parameters and root distributions",
+        "Not exclusion of every mixed-topology tree mixture: the network itself is a displayed-tree mixture"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "cor:mixture",
+            "number": "3.3"
+          }
+        ]
+      },
+      "finite_checks": [
+        "same_topology_two_tree_mixture",
+        "general_markov_examples"
+      ],
+      "finite_check_coverage": "One exact positive two-component d=4 common-topology mixture has shared-split rank 8. The analytic rank bound <=md and C1 establish exclusion for all competing parameters.",
+      "dependencies": [
+        "C1",
+        "standard tree flattening factorization and rank subadditivity"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Reduction and separation for larger single-reticulation Markov networks",
+      "kind": "analytic_lemma_and_corollary",
+      "statement": "A rooted network with exactly one reticulation, one underlying cycle, and at least four observable cycle attachment components, including the reticulation-descendant component, has a four-leaf marginal of the C1 form. It is excluded from all mixtures of at most floor(d/2) general Markov trees on any one common topology on its observed taxa.",
+      "assumptions": [
+        "d>=2",
+        "strictly positive root distribution",
+        "strictly positive invertible stochastic edge channels",
+        "interior inheritance weight",
+        "exactly one reticulation and one underlying cycle",
+        "at least four observed cycle attachments, one below the reticulation"
+      ],
+      "scope_limits": [
+        "Not a theorem for arbitrary multiple-reticulation or overlapping-cycle networks",
+        "Not network topology or parameter identifiability",
+        "Bayes reversal is performed on the shared backbone before attaching the reticulation conditional factor"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "lem:gm-reduction",
+            "number": "4.1"
+          },
+          {
+            "label": "thm:gm-network",
+            "number": "4.2"
+          }
+        ]
+      },
+      "finite_checks": [],
+      "finite_check_coverage": "No graph-wide universal reduction is computationally verified. This claim is supported by the explicit analytic reduction and marginalization argument.",
+      "dependencies": [
+        "C1",
+        "C2",
+        "standard positive Markov Bayes reversal"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Homogeneous stationary reversible triangle separation",
+      "kind": "analytic_theorem",
+      "statement": "A positive triangle generated by one stationary irreducible reversible generator cannot equal any homogeneous stationary reversible tree when d>=3, or when d=2 and its stationary distribution is nonuniform. The competing tree may choose its own generator and stationary distribution and may have finite nonnegative edge lengths. The usual one-reticulation marginal reduction extends the conclusion to larger networks with at least three observable cycle attachments.",
+      "assumptions": [
+        "strictly positive stationary distribution",
+        "one common reversible irreducible continuous-time generator on all network edges",
+        "three finite strictly positive cycle lengths",
+        "0<gamma<1",
+        "finite nonnegative triangle pendant lengths",
+        "d>=3 or d=2 with pi!=(1/2,1/2)"
+      ],
+      "scope_limits": [
+        "Not arbitrary edge-specific reversible generators on a triangle",
+        "Not nonstationary or site-rate-mixture triangle evolution",
+        "Not blanket binary-symmetric separation",
+        "Known Jukes-Cantor special case is credited"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "thm:triangle",
+            "number": "5.2"
+          },
+          {
+            "label": "lem:triangle-reduction",
+            "number": "5.3"
+          },
+          {
+            "label": "cor:reversible-large",
+            "number": "5.4"
+          }
+        ]
+      },
+      "finite_checks": [
+        "symbolic_identities",
+        "normalized_f81_examples",
+        "binary_symmetric_exact_tree_equality"
+      ],
+      "finite_check_coverage": "Exact symbolic curvature and moment identities, plus selected uniform and nonuniform F81 tensors at d=3,4,5. The repeated-spectrum and multiple-rate exhaustive split is analytic.",
+      "dependencies": [
+        "unique real symmetric logarithm of a symmetric positive definite matrix",
+        "strict concavity",
+        "stationary reversible path contraction"
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Binary-symmetric triangle-to-tree criterion",
+      "kind": "analytic_proposition_and_exact_counterexample",
+      "statement": "For the binary-uniform triangle, set q=gamma B+(1-gamma)AC and r=gamma AB+(1-gamma)C. It equals a finite positive-length tree exactly when Z^2 q r<A. Its tree attenuations are X sqrt(Aq/r), Y sqrt(Ar/q), Z sqrt(qr/A). Equality Z^2 q r=A gives a zero third tree edge; greater values exclude every finite nonnegative-length tree.",
+      "assumptions": [
+        "pi=(1/2,1/2)",
+        "0<A,B,C<1",
+        "0<X,Y,Z<=1",
+        "0<gamma<1",
+        "homogeneous stationary binary-symmetric evolution"
+      ],
+      "scope_limits": [
+        "Application of established CFN moment inversion, not a priority claim for that inversion",
+        "Only the binary-uniform model is classified here"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "prop:binary",
+            "number": "6.1"
+          }
+        ]
+      },
+      "finite_checks": [
+        "binary_symmetric_exact_tree_equality"
+      ],
+      "finite_check_coverage": "Direct equality of all eight entries for A=1/4, B=C=X=Y=Z=gamma=1/2 and positive star attenuations (1/4,1/4,5/16). One example does not verify the full iff classification.",
+      "dependencies": [
+        "standard binary-spin Fourier inversion and CFN tripod parameterization"
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Triangle exclusion from the full tree closure and compact-domain margin",
+      "kind": "analytic_theorem_and_corollary",
+      "statement": "Every triangle satisfying C4 lies outside the Euclidean closure of the full competing homogeneous stationary reversible tree model, including sequences with varying generators, stationary distributions, and unbounded lengths. Every nonempty compact admissible network parameter family therefore has a strictly positive total-variation separation margin from that unrestricted tree closure.",
+      "assumptions": [
+        "C4 hypotheses",
+        "for the uniform-margin conclusion, a compact parameter family entirely within the C4 domain"
+      ],
+      "scope_limits": [
+        "No positive uniform margin over the entire unrestricted open network domain",
+        "No evaluated separation constant for a biological parameter range",
+        "No practical fitted inference algorithm is supplied",
+        "Approaching inheritance endpoints still approaches displayed trees"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "thm:triangle-closure",
+            "number": "7.1"
+          },
+          {
+            "label": "cor:compact",
+            "number": "7.2"
+          }
+        ]
+      },
+      "finite_checks": [],
+      "finite_check_coverage": "No sequence search or numerical distance optimization establishes this claim. Support is the normalized symmetric-logarithm limit argument and compactness proof.",
+      "dependencies": [
+        "C4",
+        "continuity of the symmetric matrix logarithm on the positive definite cone",
+        "compactness in a finite probability simplex"
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "Observable rank residual, pointwise margin, and conservative iid test",
+      "kind": "analytic_corollaries",
+      "statement": "For 1<=m<=floor(d/2), let R_m(P) be the minimum over the three quartet splits of the Frobenius singular-value tail above rank md. Under C1 it is strictly positive, 1-Lipschitz, and a lower bound on Euclidean distance to the closure of the common-topology m-component tree-mixture union. For n iid quartet patterns, rejecting when R_m(P_hat)>sqrt[d^4 log(2d^4/alpha)/(2n)] has null error at most alpha and is consistent at every fixed admissible four-cycle.",
+      "assumptions": [
+        "C1 hypotheses for strict positivity and fixed-alternative consistency",
+        "1<=m<=floor(d/2)",
+        "iid sites for the concentration statement",
+        "0<alpha<1",
+        "exact mathematical singular values"
+      ],
+      "scope_limits": [
+        "Uses established Eckart-Young and Hoeffding tools",
+        "No claim of a new general SVD method",
+        "No uniform unrestricted alternative margin",
+        "Conservative theoretical threshold, not a biologically calibrated detector",
+        "Numerical error control and site dependence require separate treatment"
+      ],
+      "proof_locator": {
+        "status": "bound",
+        "file": "paper.tex",
+        "results": [
+          {
+            "label": "cor:residual",
+            "number": "8.1"
+          },
+          {
+            "label": "cor:test",
+            "number": "8.2"
+          }
+        ]
+      },
+      "finite_checks": [],
+      "finite_check_coverage": "No statistical simulation, SVD implementation, or power calibration is included. This is an analytic consequence of C1 and standard approximation/concentration results.",
+      "dependencies": [
+        "C1",
+        "C2",
+        "Eckart-Young approximation theorem",
+        "Hoeffding inequality",
+        "strong law of large numbers"
+      ]
+    }
+  ],
+  "paper_source_sha256": "3177f8135159a525447b3ec1aea0fd6f62e65ef9823b6da77ad58456ed8fbf75"
+}

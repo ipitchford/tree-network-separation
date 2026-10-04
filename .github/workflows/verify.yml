@@ -1,0 +1,27 @@
+name: Exact candidate checks
+on:
+  push:
+  pull_request:
+env:
+  SYMPY_GROUND_TYPES: python
+  PYTHONDONTWRITEBYTECODE: "1"
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -r verification/requirements.txt
+      - run: python scripts/check_package.py
+      - run: python verification/replay.py --extended-d5 --output /tmp/fresh-replay.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: replay-python-${{ matrix.python-version }}
+          path: /tmp/fresh-replay.json
